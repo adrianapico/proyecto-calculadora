@@ -34,7 +34,7 @@ https://calculadora-aspc.netlify.app
 https://docs.google.com/document/d/13u0Uzhlgykid7PEABj_ViUw8q_YLRDy_/edit?usp=sharing&ouid=102154654017871235330&rtpof=true&sd=true
 
 
-## Authors
+## Author
 
 - [@AdrianaPico](https://github.com/adrianapico)
 
