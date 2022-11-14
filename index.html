@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nd">
+        <h1>CALCULADORA</h1>
+        <!-- para el modo nocturno -->
+
+        <button type="button" class="btn-btn-dark" onclick="cambiarModo()"> Dark/ Light</button>
+    </div>
+
+    <div class="calculadora">
+        <div>
+            <input type="text" id="resultado-calculadora" placeholder="0">
+        </div>
+
+        
+
+        <div class="numeros">
+            <button class="num-button" onclick="numeros(7)">7</button>
+            <button class="num-button" onclick="numeros(8)">8</button>
+            <button class="num-button" onclick="numeros(9)">9</button>
+            <button class="num-button-d" onclick="numeros('*')">X</button>           
+        </div>
+
+        <div class="numeros">
+            <button class="num-button" onclick="numeros(4)">4</button>
+            <button class="num-button" onclick="numeros(5)">5</button>
+            <button class="num-button" onclick="numeros(6)">6</button>
+            <button class="num-button-d" onclick="numeros('/')">/</button>           
+        </div>
+
+        <div class="numeros">
+            <button class="num-button" onclick="numeros(1)">1</button>
+            <button class="num-button" onclick="numeros(2)">2</button>
+            <button class="num-button" onclick="numeros(3)">3</button>
+            <button class="num-button-d" onclick="numeros('-')">-</button>           
+        </div>
+
+        <div class="numeros">
+            <button class="num-button" onclick="numeros(0)">0</button>
+            <button class="num-button-borrar" onclick="borrar()">C</button>
+            <button class="num-button-igual" onclick="operacion()">=</button>
+            <button class="num-button-d" onclick="numeros('+')">+</button>           
+        </div>
+    </div>
+    
+</body>
+
+<script src="index.js"></script>
+</html>
